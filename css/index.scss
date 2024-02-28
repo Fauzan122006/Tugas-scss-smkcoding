@@ -13,18 +13,25 @@ body {
 .container {
     
     padding: 10px 80px;
-    max-height: 300px;
+    max-height: 400px;
     background: #F6EADB;
     margin-top: 150px;
 
     .bg-about {
         display: flex;
         justify-content: space-between;
+        
+        .kopi-bg-img {
+            height: 400px;
+            opacity: 30%;
+        }
 
 
         .content-left {
             width: 450px;
-            margin-left: 150px;
+            position: relative;
+            left: -1200px;
+           
 
             .kopi-img {
                 position: relative;
@@ -40,8 +47,8 @@ body {
                     left: 0;
 
                     img {
-                        width: 250px;
-                        height: 350px;
+                        width: 280px;
+                        height: 400px;
                     }
                 
             }
@@ -50,10 +57,11 @@ body {
 
         .content-right {
             position: relative;
-            left: -400px;
-            top: -5px;
+            left: -800px;
+            top: 20px;
 
             .about {
+                width: 500px;
                 span {
                     text-decoration: underline;
                     text-decoration-color: #FE932D;

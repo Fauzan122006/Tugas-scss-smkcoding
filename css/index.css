@@ -8,7 +8,7 @@ body {
 
 .container {
   padding: 10px 80px;
-  max-height: 300px;
+  max-height: 400px;
   background: #F6EADB;
   margin-top: 150px;
 }
@@ -16,9 +16,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.container .bg-about .kopi-bg-img {
+  height: 400px;
+  opacity: 30%;
+}
 .container .bg-about .content-left {
   width: 450px;
-  margin-left: 150px;
+  position: relative;
+  left: -1200px;
 }
 .container .bg-about .content-left .kopi-img {
   position: relative;
@@ -34,13 +39,16 @@ body {
   left: 0;
 }
 .container .bg-about .content-left .kopi-img .galssy-card img {
-  width: 250px;
-  height: 350px;
+  width: 280px;
+  height: 400px;
 }
 .container .bg-about .content-right {
   position: relative;
-  left: -400px;
-  top: -5px;
+  left: -800px;
+  top: 20px;
+}
+.container .bg-about .content-right .about {
+  width: 500px;
 }
 .container .bg-about .content-right .about span {
   text-decoration: underline;
