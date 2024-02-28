@@ -1,0 +1,184 @@
+@mixin flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: poppins;
+}
+.bg-kopi {
+    width: 1100px;
+}
+.container {
+    
+    padding: 10px 80px;
+    max-height: 300px;
+    background: #F6EADB;
+    margin-top: 150px;
+
+    .bg-about {
+        display: flex;
+        justify-content: space-between;
+
+
+        .content-left {
+            width: 450px;
+            margin-left: 150px;
+
+            .kopi-img {
+                position: relative;
+
+                .galssy-card {
+                    width: max-content;
+                    padding: 5px;
+                    background-color: rgba($color: #eaeaea, $alpha: 0.6);
+                    border-radius: 20px;
+
+                    position: absolute;
+                    top: -80px;
+                    left: 0;
+
+                    img {
+                        width: 250px;
+                        height: 350px;
+                    }
+                
+            }
+        }
+    }
+
+        .content-right {
+            position: relative;
+            left: -400px;
+            top: -5px;
+
+            .about {
+                span {
+                    text-decoration: underline;
+                    text-decoration-color: #FE932D;
+                }
+            }
+
+            .deskripsi {
+                color: gray;
+            }
+
+            .get-your-coffe {
+                @include flex-box();
+                background-color: #2E2104;
+                color: #E9A624;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+
+    .special-menu {
+        position: relative;
+        top: 150px;
+
+        .judul {
+            justify-content: center;
+
+            span {
+                text-decoration: underline;
+                text-decoration-color: #E9A624;
+            }
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+
+            .card {
+                background-color: white;
+                width: 300px;
+                @include flex-box();
+                border-radius: 10px;
+                box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+                margin: 20px;
+
+                .card-body {
+                    img {
+                        margin-top: 20px;
+                        width: 250px;
+                        border-radius: 20px;
+                        margin-bottom: -45px;
+                    }
+
+                    .glasssy-rating {
+                        width: 60px;
+                        height: 30px;
+                        padding-left: 4px;
+                        padding-right: 4px;
+                        padding-top: 2px;;
+                        padding-bottom: 2px;
+                        background-color: rgba($color: #eaeaea, $alpha: 0.6);
+                        border-radius: 20px;
+                        position: relative;
+                        top: -120px;
+                        left: 5px;
+
+                        .rating {
+                            width: 60px;
+                            padding-top: -10px;
+                            border-radius: 20px;
+                            background-color: white;
+                            display: flex;
+                            margin-top: 2px;
+
+                            p {
+                                margin-left: 5px;
+                                margin-top: 1px;
+                                margin-bottom: 0px;
+                                font-weight: bold;
+
+                            }
+
+                            .star {
+                                width: 18px;
+                                margin-top: -50px;
+                                margin-left: 2px;
+                                
+                            }
+                        }
+                    }
+
+                    .judul-harga {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .harga {
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .desk-icon {
+                        margin-top: -5px;
+                        margin-bottom: 5px;
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        .desk {
+                            font-size: 12px;
+                            color: gray;
+                            margin-top: -10px;
+                        }
+
+                        .icon {
+                            background-color: #FE932D;
+                            width: 30px;
+                            height: 30px;
+                            @include flex-box();
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+
+    
+}

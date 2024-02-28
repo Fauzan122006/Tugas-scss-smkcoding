@@ -1,0 +1,150 @@
+body {
+  font-family: poppins;
+}
+
+.bg-kopi {
+  width: 1100px;
+}
+
+.container {
+  padding: 10px 80px;
+  max-height: 300px;
+  background: #F6EADB;
+  margin-top: 150px;
+}
+.container .bg-about {
+  display: flex;
+  justify-content: space-between;
+}
+.container .bg-about .content-left {
+  width: 450px;
+  margin-left: 150px;
+}
+.container .bg-about .content-left .kopi-img {
+  position: relative;
+}
+.container .bg-about .content-left .kopi-img .galssy-card {
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px;
+  background-color: rgba(234, 234, 234, 0.6);
+  border-radius: 20px;
+  position: absolute;
+  top: -80px;
+  left: 0;
+}
+.container .bg-about .content-left .kopi-img .galssy-card img {
+  width: 250px;
+  height: 350px;
+}
+.container .bg-about .content-right {
+  position: relative;
+  left: -400px;
+  top: -5px;
+}
+.container .bg-about .content-right .about span {
+  text-decoration: underline;
+  text-decoration-color: #FE932D;
+}
+.container .bg-about .content-right .deskripsi {
+  color: gray;
+}
+.container .bg-about .content-right .get-your-coffe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E2104;
+  color: #E9A624;
+  padding: 10px;
+  border-radius: 20px;
+}
+.container .special-menu {
+  position: relative;
+  top: 150px;
+}
+.container .special-menu .judul {
+  justify-content: center;
+}
+.container .special-menu .judul span {
+  text-decoration: underline;
+  text-decoration-color: #E9A624;
+}
+.container .special-menu .menu-container {
+  display: flex;
+  justify-content: center;
+}
+.container .special-menu .menu-container .card {
+  background-color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.container .special-menu .menu-container .card .card-body img {
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 20px;
+  margin-bottom: -45px;
+}
+.container .special-menu .menu-container .card .card-body .glasssy-rating {
+  width: 60px;
+  height: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(234, 234, 234, 0.6);
+  border-radius: 20px;
+  position: relative;
+  top: -120px;
+  left: 5px;
+}
+.container .special-menu .menu-container .card .card-body .glasssy-rating .rating {
+  width: 60px;
+  padding-top: -10px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  margin-top: 2px;
+}
+.container .special-menu .menu-container .card .card-body .glasssy-rating .rating p {
+  margin-left: 5px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.container .special-menu .menu-container .card .card-body .glasssy-rating .rating .star {
+  width: 18px;
+  margin-top: -50px;
+  margin-left: 2px;
+}
+.container .special-menu .menu-container .card .card-body .judul-harga {
+  display: flex;
+  justify-content: space-between;
+}
+.container .special-menu .menu-container .card .card-body .judul-harga .harga {
+  margin-left: 10px;
+}
+.container .special-menu .menu-container .card .card-body .desk-icon {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .special-menu .menu-container .card .card-body .desk-icon .desk {
+  font-size: 12px;
+  color: gray;
+  margin-top: -10px;
+}
+.container .special-menu .menu-container .card .card-body .desk-icon .icon {
+  background-color: #FE932D;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}/*# sourceMappingURL=index.css.map */
